@@ -13,10 +13,10 @@ public interface NoiseProducer
 	 * 
 	 * @param image
 	 *            the image to add the noise to
-	 * @param factorOne
-	 * @param factorTwo
-	 * @param factorThree
-	 * @param factorFour
+	 * @param factorOne factorOne
+	 * @param factorTwo factorTwo
+	 * @param factorThree factorThree
+	 * @param factorFour factorFour
 	 */
 	public void makeNoise(BufferedImage image, float factorOne,
 			float factorTwo, float factorThree, float factorFour);

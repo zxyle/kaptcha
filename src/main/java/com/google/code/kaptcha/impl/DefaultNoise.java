@@ -21,14 +21,14 @@ public class DefaultNoise extends Configurable implements NoiseProducer
 {
 	/**
 	 * Draws a noise on the image. The noise curve depends on the factor values.
-	 * Noise won't be visible if all factors have the value > 1.0f
+	 * Noise won't be visible if all factors have the value &gt; 1.0f
 	 * 
 	 * @param image
 	 *            the image to add the noise to
-	 * @param factorOne
-	 * @param factorTwo
-	 * @param factorThree
-	 * @param factorFour
+	 * @param factorOne factorOne
+	 * @param factorTwo factorTwo
+	 * @param factorThree factorThree
+	 * @param factorFour factorFour
 	 */
 	public void makeNoise(BufferedImage image, float factorOne,
 			float factorTwo, float factorThree, float factorFour)

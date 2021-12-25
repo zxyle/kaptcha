@@ -2,7 +2,7 @@
 _A kaptcha generation engine._
 
 ## Intro
-Fork by [kaptcha](http://code.google.com/p/kaptcha/)
+Forked from [kaptcha](http://code.google.com/p/kaptcha/).
 
 ## Usage
 ```xml
